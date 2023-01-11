@@ -9,7 +9,7 @@ function Budgets({budgets, setBudgets}) {
 
     useEffect(() => {
       axios
-      .get(`${API}budgets`)
+      .get(`${API}/budgets`)
       .then((res) => setBudgets(res.data))
       .catch(err => console.error(err))
     },[])
