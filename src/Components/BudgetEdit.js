@@ -53,7 +53,7 @@ function BudgetEdit() {
           pattern="date"
           type="date"
           onChange={handleTextChange}
-          placeholder="mm/dd/yyyy"
+          placeholder="yyyy-mm-dd"
           required
         />
         <label htmlFor="item_name">Item:</label>
