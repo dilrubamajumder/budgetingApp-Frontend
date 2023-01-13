@@ -12,7 +12,8 @@ const Edit = () => {
          <div>
         <img
           className="edit-logo"
-          src="https://media0.giphy.com/media/1irGj8vnpt68Oq0kdu/200w.gif"
+          // src="https://media0.giphy.com/media/1irGj8vnpt68Oq0kdu/200w.gif"
+          src=""
           alt="edit-logo"
           width={300}
         />
